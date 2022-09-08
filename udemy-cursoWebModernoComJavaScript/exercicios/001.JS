@@ -2,20 +2,15 @@
 *concatenada com um argumento text (a ser passado
 *para a função) e com ponto de exclamação "!" no final.*/
 
-// Comentário de uma linha
-console.log('Linha 01')
 
-/* Comentário de
-multiplas linhas
-*/
-console.log('Linha 02')
+function saudacao(nome){
+    const ola = ("Olá " + nome + "!");
 
-/* Segunda maneira
-*de cometário de
-*multiplas 
-*linhas
-*/
-console.log('Linha 03')
+    //console.log(ola);
+    return ola;
+
+};
 
 
-console.log("Hello World")
+console.log(saudacao("Gabriel do Nascimento Miguel"));
+console.log(saudacao("Edinalva Antonia do Nascimento"));
